@@ -2,7 +2,7 @@
 from time import sleep
 import sys
 
-def vital_alert(message)
+def vital_alert(message):
   print(message)
   for i in range(6):
       print('\r* ', end='')
