@@ -5,6 +5,7 @@ import sys
 
 def vitals_ok(temperature, pulseRate, spo2):
   if temperature > 102 or temperature < 95:
+    print('sample')
     print('Temperature critical!')
     for i in range(6):
       print('\r* ', end='')
